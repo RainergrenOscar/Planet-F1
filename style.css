@@ -1,0 +1,15 @@
+/*Imported Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap"); /*Header Font*/
+/*font-family: "Nunito Sans", sans-serif;*/
+.navbar-nav {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+li {
+  padding: 30px;
+  color: #2a2a2a;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+}
