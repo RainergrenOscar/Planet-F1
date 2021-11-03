@@ -36,15 +36,3 @@ body {
 #footer-font {
   font-family: "Nunito Sans", sans-serif;
 }
-
-@media screen and (min-width: 1200px) {
-  h1 {
-    font-size: 35px;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  h1 {
-    font-size: 30px;
-  }
-}
