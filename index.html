@@ -15,41 +15,61 @@
   </head>
   <body>
     <!-- Creating Navigation Bar -->
-    <div class="container">
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a href="index.html" class="navbar-brand">
-          <img src="img/logo.svg" width="70" height="35" alt="Logo Planet F1" />
+    <nav class="navbar fixed-top navbar-expand-md bg-light navbar-light">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="img/logo.svg" width="55" height="30" alt="" />
         </a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#toggleMobileMenu"
-          aria-controls="toggleMobileMenu"
-          aria-expanded="false"
-          aria-label="Toggle Navigation"
+          data-bs-target="#navmenu"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="toggleMobileMenu">
-          <ul class="navbar-nav">
-            <li>
-              <a href="index.html" class="nav-link">Home</a>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
             </li>
-            <li>
-              <a href="about.html" class="nav-link">About</a>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
             </li>
-            <li>
-              <a href="contact.html" class="nav-link">Contact</a>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
             </li>
-            <li>
-              <a href="gallery.html" class="nav-link">Gallery</a>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Gallery</a>
             </li>
           </ul>
         </div>
-      </nav>
-    </div>
-    <!-- Navigation bar ending -->
+      </div>
+    </nav>
+    <!-- First news image -->
+    <section class="bg-light text-dark p-5 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex">
+          <img
+            src="img/mercedeswin.jpg"
+            class="img-fluid w-50 h-50 d-none d-md-block"
+            alt=""
+          />
+          <div>
+            <h1 id="title-font" class="mt-4 m-lg-4">
+              Mercedes-AMG
+              <span id="petronas">Petronas</span>
+              F1 Team sign off from Zandvoort with a double-podium finish
+            </h1>
+            <p class="lead mt-4 m-lg-4" id="news-text">
+              The 2021 Dutch Grand Prix took place in front of packed
+              grandstands and a sea of orange, with an incredible atmosphere at
+              Zandvoort.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Import Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
