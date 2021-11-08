@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- Creating Navigation Bar -->
-    <nav class="navbar fixed-top navbar-expand-md bg-light navbar-light">
+    <nav id="nav-color"class="navbar fixed-top navbar-expand-md navbar-light">
       <div class="container col-7">
         <a href="index.html" class="navbar-brand">
           <img src="img/logo.svg" width="55" height="30" alt="" />
@@ -52,9 +52,11 @@
         </div>
       </div>
     </nav>
-    <!-- About -->
-    <div class="container mt-5">
-      <h1>Ask anything!</h1>
+    <!-- Contact -->
+    
+    <div class="container mt-5 card bg-light">
+      <div class="card-body">
+      <h1>Ask me anything <i class="far fa-smile-wink"></i></h1>
       <form class="row g-3">
         <div class="col-md-6">
           <label for="firstName" class="form-label">First Name</label>
@@ -100,11 +102,14 @@
           <label for="comments" class="form-label">Questions?</label>
           <textarea class="form-control" id="comments" rows="3"></textarea>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-12 text-center">
           <button type="submit" class="btn btn-primary">Submit</button>
         </div>
+      </div>
       </form>
     </div>
+    
+
     <!-- Footer -->
 
     <!-- Import Bootstrap -->

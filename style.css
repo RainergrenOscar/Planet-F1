@@ -49,6 +49,10 @@ body {
   font-family: "Nunito Sans", sans-serif;
 }
 
+#nav-color {
+  background: #ffffffe7;
+}
+
 @media (max-width: 767px) {
   h1 {
     font-size: 22px;
