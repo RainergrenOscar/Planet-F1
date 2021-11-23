@@ -6,10 +6,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); /*News text*/
 /*font-family: 'Poppins', sans-serif;*/
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   padding-top: 30px;
   background: #f8f9fa;
-  overflow-y: hidden; /*Fixes navbar issue*/
 }
 
 .nav-item {
