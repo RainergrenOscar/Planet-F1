@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); /*News text*/
 /*font-family: 'Poppins', sans-serif;*/
 
+/* Almost only colors and fonts */
 html {
   overflow-x: hidden;
 }
@@ -79,6 +80,8 @@ body {
   font-size: 1.125rem;
   line-height: 2;
 }
+
+/* Media Querys for a better responsive website */
 
 @media (max-width: 767px) {
   h1 {
