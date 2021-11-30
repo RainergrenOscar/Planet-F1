@@ -1,9 +1,3 @@
-# Planet F1
-
----
-
-
-
 
 # Planet F1
 
