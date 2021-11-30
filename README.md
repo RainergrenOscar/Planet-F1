@@ -16,6 +16,6 @@ Hope you enjoy!
 
 ### Figma
 
-* [Figma] https://www.figma.com/file/rCqNSra1Ksv8hMeaTVStWc/Untitled?node-id=0%3A1
+* [Figma](https://www.figma.com/file/rCqNSra1Ksv8hMeaTVStWc/Untitled?node-id=0%3A1)
 
 
